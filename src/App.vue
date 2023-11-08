@@ -1,9 +1,8 @@
 <script setup>
-import AboutMe from './components/AboutMe.vue'
 </script>
 
 <template>
-  <AboutMe/>
+  <router-view></router-view>
 </template>
 
 <style scoped>
