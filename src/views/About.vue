@@ -19,7 +19,7 @@
 
 <style scoped>
 #about img{
-  animation: loadImage 4s 1;
+  animation: loadImage 2s 1 ease-in-out;
 }
 
 @keyframes loadImage {
@@ -54,7 +54,7 @@
 {
   position: relative;
   letter-spacing: 2px;
-  animation: opacityFirst 4s 1
+  animation: opacityFirst 2s 1 ease-in;
 }
 
 @keyframes opacityFirst {
@@ -73,8 +73,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  animation: firstP 1s 1 steps(6, end);
-  animation-delay: 4s;
+  animation: firstP .5s 1 steps(6, end);
+  animation-delay: 2s;
 }
 
 @keyframes firstP {
@@ -90,10 +90,13 @@
   }
 }
 
+
+
+
 #about #secound{
   position: relative;
   letter-spacing: 4px;
-  animation: opacitySecound 5s 1
+  animation: opacitySecound 2.5s 1
 }
 
 @keyframes opacitySecound {
@@ -112,8 +115,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  animation: thirthh2 2s 1 steps(11, end);
-  animation-delay: 5s;
+  animation: thirthh2 .5s 1 steps(11, end);
+  animation-delay: 2.5s;
 }
 
 @keyframes thirthh2 {
@@ -132,7 +135,7 @@
 #about #thirth{
   position: relative;
   letter-spacing: 5px;
-  animation: opacityThirth 7s 1
+  animation: opacityThirth 3s 1
 }
 
 @keyframes opacityThirth {
@@ -151,8 +154,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  animation: thirthH2 3s 1 steps(19, end);
-  animation-delay: 7s;
+  animation: thirthH2 .7s 1 steps(19, end);
+  animation-delay: 3s;
 }
 
 @keyframes thirthH2 {
@@ -171,7 +174,7 @@
 #about #fourth{
   position: relative;
   letter-spacing: 2px;
-  animation: opacityFourth 10s 1
+  animation: opacityFourth 3.7s 1
 }
 
 @keyframes opacityFourth {
@@ -190,8 +193,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  animation: fourthP 4s 1 steps(28, end);
-  animation-delay: 10s;
+  animation: fourthP .7s 1 steps(28, end);
+  animation-delay: 3.7s;
 }
 
 @keyframes fourthP {
@@ -210,7 +213,7 @@
 #about #fiveth{
   position: relative;
   letter-spacing: 2px;
-  animation: opacityFiveth 14s 1
+  animation: opacityFiveth 4.5s 1
 }
 
 @keyframes opacityFiveth {
@@ -229,8 +232,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  animation: fourthP 4s 1 steps(28, end);
-  animation-delay: 14s;
+  animation: fourthP .7s 1 steps(28, end);
+  animation-delay: 4.5s;
 }
 
 @keyframes fivethhP {
@@ -250,7 +253,7 @@
 #about #sixth{
   position: relative;
   letter-spacing: 2px;
-  animation: opacitySixth 18s 1;
+  animation: opacitySixth 5.2s 1;
 }
 
 @keyframes opacitySixth {
@@ -269,8 +272,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  animation: sixthP 3s 1 steps(20, end);
-  animation-delay: 18s;
+  animation: sixthP .5s 1 steps(20, end);
+  animation-delay: 5.2s;
 }
 
 @keyframes sixthP {
@@ -293,8 +296,8 @@
   left: 0;
   width: 0%;
   height: 100%;
-  animation: lighter 2s infinite linear alternate-reverse;
-  animation-delay: 23.5s;
+  animation: lighter .8s infinite linear alternate-reverse;
+  animation-delay: 6.4s;
 }
 
 @keyframes lighter {
@@ -311,15 +314,15 @@
 }
 
 #codePhp{
-  animation: opacityCode 22s 1;
+  animation: opacityCode 5.8s 1;
 }
 
 #code{
-  animation: opacityCode 22.5s 1;
+  animation: opacityCode 6s 1;
 }
 
 #codeJs{
-  animation: opacityCode 23s 1;
+  animation: opacityCode 6.2s 1;
 }
 
 
