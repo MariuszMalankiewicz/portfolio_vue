@@ -39,12 +39,33 @@
         max-width: 400px;
         width: 100%;
     }
-    @media (min-width:1280px) {
+    @media (min-width:1280px) 
+    {
         img{
-        max-width: 600px;
-        width: 100%;
+            max-width: 600px;
+            width: 100%;
+        }
     }
+
+    #about{
+        animation: loading 1.5s 1 ease-in-out;
     }
+
+    @keyframes loading {
+        0%{
+            transform: translateX(-100vw) rotateZ(0deg);
+        }
+        50%{
+            transform: translateX(50vw) rotateZ(10deg) scale(.4);
+        }
+        75%{
+            transform: translateX(-50vw) rotateZ(-10deg) scale(1.4);
+        }
+        100%{
+            transform: translateX(0vw);
+        }
+    }
+    
 
 </style>
 <!-- <RouterLink to="/">O Mnie</RouterLink> -->
