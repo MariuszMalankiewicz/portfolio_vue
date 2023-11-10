@@ -1,28 +1,30 @@
 <template>
     <section id="about" class="bg-black min-h-360 w-full min-h-screen flex flex-col justify-center items-center overflow-hidden">
-        <h1 class="text-white my-24 font-bold text-3xl tracking-wide font-love_ya_like_a_sister"><span class="text-red-500">M</span>oje Projekty</h1>
+        <h1 class="viewTitle text-white my-24 font-bold text-3xl tracking-wide font-love_ya_like_a_sister"><span class="text-red-500">M</span>oje Projekty</h1>
 
         <div class="container flex flex-col lg:flex-row justify-center lg:justify-around items-center">
             <img class="rounded-full hover:rounded-lg border-4 border-white px-5 hover:px-0 lg:px-10 ease-in-out duration-300" src="../../public/images/przyklad.png" alt="przykladowe_zdj">
             <div class="description text-center flex flex-col justify-center items-center px-10 lg:px-0 mt-5">
-                <h1 class="text-white text-md font-agbalumo"><span class="text-red-500">MM</span>Blog</h1>
-                <p class="text-slate-300 font-semibold text-xs my-2 font-space_mono">Laravel 10, PHP 8.1, Tailwind, Vite, Npm, Composer</p>
-                <p class="text-slate-100 text-sm font-space_mono">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, harum. Aperiam veniam odio perferendis magni eveniet pariatur, id, magnam optio, omnis similique rerum! Et perspiciatis tempora repellendus ipsa, rem cupiditate itaque quo debitis vero voluptas libero cumque ea quaerat assumenda corrupti ipsum incidunt repellat dolorum? Repudiandae placeat facilis officiis nulla!</p>
-                <a class="text-slate-300 hover:text-red-500 ease-in-out duration-300 font-semibold text-md mt-10 lg:mt-5 font-space_mono" href="#">Zobacz kod</a>
+                <h1 class="projectTitle text-white text-md font-agbalumo"><span class="text-red-500">MM</span>Blog</h1>
+                <p class="projectTags text-slate-300 font-semibold text-xs my-2 font-space_mono">Laravel 10, PHP 8.1, Tailwind 3.3, Vite 4.0, Npm, Composer</p>
+                <p class="projectContent text-slate-100 text-sm font-space_mono">Aplikacja Blogowa pozwala na zarządzanie <span class="underline decoration-2">postami</span> i <span class="underline decoration-2">komentarzami</span>. Utwórz konto i postuj własne materiały oraz komentuj innych.</p>
+                <a class="projectButton text-slate-300 hover:text-red-500 ease-in-out duration-300 font-semibold text-md mt-10 lg:mt-5 font-space_mono" href="#">Zobacz kod</a>
             </div>
         </div>
-        <div class="w-4/5 h-0.5 bg-slate-400 m-16 lg:m-24"></div>
+        <div class="line w-4/5 h-0.5 bg-slate-400 m-16 lg:m-24"></div>
+
+
 
         <div class="container flex flex-col lg:flex-row justify-center lg:justify-around items-center">
             <img class="rounded-full hover:rounded-lg border-4 border-white px-5 hover:px-0 lg:px-10 ease-in-out duration-300" src="../../public/images/przyklad.png" alt="przykladowe_zdj">
             <div class="description text-center flex flex-col justify-center items-center px-10 lg:px-0 mt-5">
-                <h1 class="text-white text-md font-agbalumo">Nazwa Projektu</h1>
-                <p class="text-slate-300 font-semibold text-xs my-2 font-space_mono">Laravel 10, Vue 3, Tailwind, Npm, Composer</p>
-                <p class="text-slate-100 text-sm font-space_mono">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, blanditiis repudiandae repellat enim ea placeat minima cum ipsum nobis quo officia, consequatur possimus, dicta neque deserunt. Quam et esse autem enim, beatae dignissimos vel officia quisquam pariatur, ab cumque. Maiores vero eius libero blanditiis! Libero eveniet vitae aspernatur illum obcaecati!</p>
-                <a class="text-slate-300 hover:text-red-500 ease-in-out duration-300 font-semibold text-md mt-10 lg:mt-5 font-space_mono" href="#">Zobacz kod</a>
+                <h1 class="projectTitle text-white text-md font-agbalumo"><span class="text-red-500">MM</span>Blog</h1>
+                <p class="projectTags text-slate-300 font-semibold text-xs my-2 font-space_mono">Laravel 10, PHP 8.1, Tailwind 3.3, Vite 4.0, Npm, Composer</p>
+                <p class="projectContent text-slate-100 text-sm font-space_mono">Aplikacja Blogowa pozwala na zarządzanie postami i komentarzami. Utwórz konto i postuj własne materiały oraz komentuj innych.</p>
+                <a class="projectButton text-slate-300 hover:text-red-500 ease-in-out duration-300 font-semibold text-md mt-10 lg:mt-5 font-space_mono" href="#">Zobacz kod</a>
             </div>
         </div>
-        <div class="w-4/5 h-0.5 bg-slate-400 m-16 lg:m-24"></div>
+        <div class="line w-4/5 h-0.5 bg-slate-400 m-16 lg:m-24"></div>
 
         
     </section>
@@ -47,7 +49,7 @@
         }
     }
 
-    #about{
+    /* #about{
         animation: loading 1.5s 1 ease-in-out;
     }
 
@@ -63,6 +65,68 @@
         }
         100%{
             transform: translateX(0vw);
+        }
+    } */
+
+    .viewTitle{
+        animation: 
+        opacity .5s 1,
+        translateX 1s 1 .5s;
+    }
+
+    img{
+        animation: 
+        opacity 1s 1,
+        translateX 1s 1 1s;
+    }
+
+    .projectTitle{
+        animation: 
+        opacity 1.5s 1,
+        translateX 1s 1 1.5s;
+    }
+    .projectTags{
+        animation: 
+        opacity 2s 1,
+        translateX 1s 1 2s;
+    }
+    .projectContent{
+        animation: 
+        opacity 2.5s 1,
+        translateX 1s 1 2.5s;
+    }
+
+    .projectButton{
+        animation: 
+        opacity 3s 1,
+        translateX 1s 1 3s;
+    }
+
+    .line{
+        animation: 
+        opacity 3.5s 1,
+        translateX 1s 1 3.5s;
+    }
+
+    @keyframes opacity {
+        0%{
+            opacity: 0;
+        }
+        99%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(-15%);
+        }
+    }
+
+    @keyframes translateX {
+        0%{
+            transform: translateX(-15%);
+        }
+        100%{
+            transform: translateX(0);
         }
     }
     
