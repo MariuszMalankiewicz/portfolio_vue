@@ -3,7 +3,7 @@
         <h1 class="viewTitle text-white my-24 font-bold text-3xl tracking-wide font-love_ya_like_a_sister"><span class="text-red-500">M</span>oje Projekty</h1>
 
         <div class="container flex flex-col lg:flex-row justify-center lg:justify-around items-center">
-            <img class="rounded-full hover:rounded-lg border-4 border-white px-5 hover:px-0 lg:px-10 ease-in-out duration-300" src="../../public/images/MMBlog.png" alt="MMBlog">
+            <img class="rounded-xl border-4 border-white" src="../../public/images/MMBlog.png" alt="MMBlog">
             <div class="description text-center flex flex-col justify-center items-center px-10 lg:px-0 mt-5">
                 <h1 class="projectTitle text-white text-md font-agbalumo"><span class="text-red-500">MM</span>Blog</h1>
                 <p class="projectTags text-slate-300 font-semibold text-xs my-2 font-space_mono">Laravel 10, PHP 8.1, Tailwind 3.3, Vite 4.0, Npm, Composer</p>
@@ -16,7 +16,7 @@
 
 
         <div class="container flex flex-col lg:flex-row justify-center lg:justify-around items-center">
-            <img class="rounded-full hover:rounded-lg border-4 border-white px-5 hover:px-0 lg:px-10 ease-in-out duration-300" src="../../public/images/przyklad.png" alt="przykladowe_zdj">
+            <img class="rounded-xl border-4 border-white" src="../../public/images/przyklad.png" alt="przykladowe_zdj">
             <div class="description text-center flex flex-col justify-center items-center px-10 lg:px-0 mt-5">
                 <h1 class="projectTitle text-white text-md font-agbalumo"><span class="text-red-500">MM</span>Blog</h1>
                 <p class="projectTags text-slate-300 font-semibold text-xs my-2 font-space_mono">Laravel 10, PHP 8.1, Tailwind 3.3, Vite 4.0, Npm, Composer</p>
