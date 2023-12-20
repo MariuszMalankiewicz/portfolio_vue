@@ -2,7 +2,7 @@
     <section id="about" class="bg-black min-h-360 w-full min-h-screen flex flex-col justify-center items-center overflow-hidden">
         <h1 class="viewTitle text-white my-24 font-bold text-3xl tracking-wide font-love_ya_like_a_sister"><span class="text-red-500">M</span>oje Projekty</h1>
 
-        <div class="container flex flex-col lg:flex-row justify-center lg:justify-around items-center">
+        <!-- <div class="container flex flex-col lg:flex-row justify-center lg:justify-around items-center">
             <img class="rounded-xl border-4 border-white" src="../../public/images/MMBlog.png" alt="MMBlog">
             <div class="description text-center flex flex-col justify-center items-center px-10 lg:px-0 mt-5">
                 <h1 class="projectTitle text-white text-md font-agbalumo"><span class="text-red-500">MM</span>Blog</h1>
@@ -11,17 +11,21 @@
                 <a class="projectButton text-slate-300 hover:text-red-500 ease-in-out duration-300 font-semibold text-md mt-10 lg:mt-5 font-space_mono" href="#">Zobacz kod</a>
             </div>
         </div>
-        <div class="line w-4/5 h-0.5 bg-slate-400 m-16 lg:m-24"></div>
+        <div class="line w-4/5 h-0.5 bg-slate-400 m-16 lg:m-24"></div> -->
 
 
 
         <div class="container flex flex-col lg:flex-row justify-center lg:justify-around items-center">
-            <img class="rounded-xl border-4 border-white" src="../../public/images/przyklad.png" alt="przykladowe_zdj">
+
+            <video class="rounded-xl border-4 border-white" controls>
+                <source src="../../public/videos/MMBlog.mp4" type="video/mp4">
+            </video> 
+
             <div class="description text-center flex flex-col justify-center items-center px-10 lg:px-0 mt-5">
                 <h1 class="projectTitle text-white text-md font-agbalumo"><span class="text-red-500">MM</span>Blog</h1>
                 <p class="projectTags text-slate-300 font-semibold text-xs my-2 font-space_mono">Laravel 10, PHP 8.1, Tailwind 3.3, Vite 4.0, Npm, Composer</p>
                 <p class="projectContent text-slate-100 text-sm font-space_mono">Aplikacja Blogowa pozwala na zarządzanie postami i komentarzami. Utwórz konto i postuj własne materiały oraz komentuj innych.</p>
-                <a class="projectButton text-slate-300 hover:text-red-500 ease-in-out duration-300 font-semibold text-md mt-10 lg:mt-5 font-space_mono" href="#">Zobacz kod</a>
+                <a class="projectButton text-slate-300 hover:text-red-500 ease-in-out duration-300 font-semibold text-md mt-10 lg:mt-5 font-space_mono" href="https://github.com/MariuszMalankiewicz/MMBlog">Zobacz kod</a>
             </div>
         </div>
         <div class="line w-4/5 h-0.5 bg-slate-400 m-16 lg:m-24"></div>
@@ -33,7 +37,7 @@
 </template>
 
 <style scoped>
-    img{
+    video{
         max-width: 500px;
         width: 95%;
     }
@@ -43,7 +47,7 @@
     }
     @media (min-width:1280px) 
     {
-        img{
+        video{
             max-width: 600px;
             width: 100%;
         }
@@ -74,7 +78,7 @@
         translateX 1s 1 .5s;
     }
 
-    img{
+    video{
         animation: 
         opacity 1s 1,
         translateX 1s 1 1s;
