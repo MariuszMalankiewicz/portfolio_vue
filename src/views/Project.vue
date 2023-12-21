@@ -54,7 +54,7 @@
             <div class="description text-center flex flex-col justify-center items-center px-10 lg:px-0 mt-5">
                 <h1 class="projectTitle text-white text-md font-agbalumo"><span class="text-red-500">MM</span>Blog</h1>
                 <p class="projectTags text-slate-300 font-semibold text-xs my-2 font-space_mono">Laravel 10, PHP 8.1, Mysql 5.7, Tailwind 3.3, Vite 4.0</p>
-                <p class="projectContent text-slate-100 text-sm font-space_mono">Oprogramowanie blogowe zależnie od dostępu można tworzyć użytkowników, posty oraz komentarze. Aplikacja korzysta z systemu walidacji do sprawdzania poprawności danych, middleware do ograniczania dostępu oraz relacji pomiędzy użytkownikiem, postami i komentarzami</p>
+                <p class="projectContent text-slate-100 text-sm font-space_mono">Oprogramowanie blogowe zależnie od dostępu można tworzyć użytkowników, posty oraz komentarze. Aplikacja korzysta z systemu walidacji do sprawdzania poprawności danych, middleware do ograniczania dostępu oraz relacji pomiędzy użytkownikiem, postami i komentarzami.</p>
                 <a class="projectButton text-slate-300 hover:text-red-500 ease-in-out duration-300 font-semibold text-md mt-10 lg:mt-5 font-space_mono" href="https://github.com/MariuszMalankiewicz/MMBlog">Zobacz kod</a>
 
                 
