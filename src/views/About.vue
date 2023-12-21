@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="bg-black min-h-360 w-full min-h-screen flex flex-col justify-center items-center relative overflow-hidden">
-    <img class="w-48 border-4 border-red-600 rotate-3 rounded-xl my-12" src="../../public/images/me.jpg" alt="author">
+    <img class="w-48 border-4 border-red-600 rotate-3 rounded-xl my-12" src="../assets/images/me.jpg" alt="author">
     <div class="text-slate-300 text-center">
       <p id="first" class="text-xs font-agbalumo inline-block text-white">Cześć<span class="text-red-600">!</span></p><br>
       <p id="secound" class="text-sm font-love_ya_like_a_sister mt-1 inline-block">Nazywam się</p><br>
