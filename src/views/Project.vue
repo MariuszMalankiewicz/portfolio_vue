@@ -6,6 +6,18 @@
     import "swiper/css/effect-cube";
     import 'swiper/css';
 
+    import MMBlog_super_admin from "../assets/videos/MMBlog_super_admin.mp4";
+    import MMBlog_admin from "../assets/videos/MMBlog_admin.mp4";
+    import MMBlog_user from "../assets/videos/MMBlog_user.mp4";
+    import MMBlog_no_account from "../assets/videos/MMBlog_no_account.mp4";
+
+    const videos = [
+        {label:'super admin', link: MMBlog_super_admin},
+        {label: 'admin', link: MMBlog_admin},
+        {label: 'user', link: MMBlog_user},
+        {label: 'bez konta', link: MMBlog_no_account},
+    ];
+
 </script>
 
 <template>
@@ -17,35 +29,11 @@
                     effect="cube"
                     navigation>
                     
-                    <SwiperSlide>
+                    <SwiperSlide v-for="video in videos">
                         <div class="flex flex-col text-center">
-                            <h2 class="title text-white font-semibold font-space_mono mb-5">Perspektywa <span class="text-red-500">superAdmin</span></h2>
+                            <h2 class="title text-white font-semibold font-space_mono mb-5">Perspektywa <span class="text-red-500">{{ video.label }}</span></h2>
                             <video class="mx-auto rounded-xl border-4 border-white" controls>
-                                <source :src="`../assets/videos/MMBlog_super_admin.mp4`" type="video/mp4">
-                            </video> 
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div class="flex flex-col text-center">
-                            <h2 class="title text-white font-semibold font-space_mono mb-5">Perspektywa <span class="text-red-500">Admin</span></h2>
-                            <video class="mx-auto rounded-xl border-4 border-white" controls>
-                                <source :src="`../assets/videos/MMBlog_admin.mp4`" type="video/mp4">
-                            </video> 
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div class="flex flex-col text-center">
-                            <h2 class="title text-white font-semibold font-space_mono mb-5">Perspektywa <span class="text-red-500">User</span></h2>
-                            <video class="mx-auto rounded-xl border-4 border-white" controls>
-                                <source :src="`../assets/videos/MMBlog_user.mp4`" type="video/mp4">
-                            </video> 
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div class="flex flex-col text-center">
-                            <h2 class="title text-white font-semibold font-space_mono mb-5">Perspektywa <span class="text-red-500">Brak konta</span></h2>
-                            <video class="mx-auto rounded-xl border-4 border-white" controls>
-                                <source :src="`../assets/videos/MMBlog_no_account.mp4`" type="video/mp4">
+                                <source :src="`${video.link}`" type="video/mp4">
                             </video> 
                         </div>
                     </SwiperSlide>
