@@ -21,7 +21,7 @@
                         <div class="flex flex-col text-center">
                             <h2 class="title text-white font-semibold font-space_mono mb-5">Perspektywa <span class="text-red-500">superAdmin</span></h2>
                             <video class="mx-auto rounded-xl border-4 border-white" controls>
-                                <source :src="`src/assets/videos/MMBlog_super_admin.mp4`" type="video/mp4">
+                                <source :src="`../assets/videos/MMBlog_super_admin.mp4`" type="video/mp4">
                             </video> 
                         </div>
                     </SwiperSlide>
@@ -29,7 +29,7 @@
                         <div class="flex flex-col text-center">
                             <h2 class="title text-white font-semibold font-space_mono mb-5">Perspektywa <span class="text-red-500">Admin</span></h2>
                             <video class="mx-auto rounded-xl border-4 border-white" controls>
-                                <source :src="`src/assets/videos/MMBlog_admin.mp4`" type="video/mp4">
+                                <source :src="`../assets/videos/MMBlog_admin.mp4`" type="video/mp4">
                             </video> 
                         </div>
                     </SwiperSlide>
@@ -37,7 +37,7 @@
                         <div class="flex flex-col text-center">
                             <h2 class="title text-white font-semibold font-space_mono mb-5">Perspektywa <span class="text-red-500">User</span></h2>
                             <video class="mx-auto rounded-xl border-4 border-white" controls>
-                                <source :src="`src/assets/videos/MMBlog_user.mp4`" type="video/mp4">
+                                <source :src="`../assets/videos/MMBlog_user.mp4`" type="video/mp4">
                             </video> 
                         </div>
                     </SwiperSlide>
@@ -45,7 +45,7 @@
                         <div class="flex flex-col text-center">
                             <h2 class="title text-white font-semibold font-space_mono mb-5">Perspektywa <span class="text-red-500">Brak konta</span></h2>
                             <video class="mx-auto rounded-xl border-4 border-white" controls>
-                                <source :src="`src/assets/videos/MMBlog_no_account.mp4`" type="video/mp4">
+                                <source :src="`../assets/videos/MMBlog_no_account.mp4`" type="video/mp4">
                             </video> 
                         </div>
                     </SwiperSlide>
